@@ -1,0 +1,10 @@
+<idea-plugin>
+    <id>NevaRiver</id>
+    <depends>com.intellij.modules.platform</depends>
+    <vendor email="Vassiliy.Kudryashov@gmail.com">Vassiliy Kudryashov</vendor>
+    <name>Neva River</name>
+    <description>Level of Neva river near its estuary (chart widget for status bar)</description>
+    <extensions defaultExtensionNs="com.intellij">
+        <statusBarWidgetFactory implementation="nevariver.NevaRiverWidgetFactory" id="Neva River Widget"/>
+    </extensions>
+</idea-plugin>
